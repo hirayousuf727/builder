@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/brands.min.css" integrity="sha512-EJp8vMVhYl7tBFE2rgNGb//drnr1+6XKMvTyamMS34YwOEFohhWkGq13tPWnK0FbjSS6D8YoA3n3bZmb3KiUYA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        nav{
+            border-bottom: 1px solid orange;
+            background-color: rgb(252, 225, 175);
+            display: flex;
+            padding: 20px;
+            box-shadow: 0px 20px 20px white, 0px 20px 20px orange;
+        }
+
+        p{
+            color: black;
+        }
+        .p1{
+            color: orange;
+        }
+        p:hover{
+            color: orange;
+            text-decoration: underline;
+            text-transform: capitalize;
+            text-decoration-line: underline;
+            cursor: pointer;
+        }
+        .p1:hover{
+            color: black;
+            text-decoration: underline;
+            text-transform: capitalize;
+            text-decoration-line: underline;
+            cursor: pointer;
+        }
+        .bt1{
+            background-color: orange;
+            border-color: orangered;
+            width: 100px;
+        }
+        .bt1:hover{
+            background-color: white;
+            border-color: orangered;
+            box-shadow: 0px 20px 20px orangered, 0px 20px 20px rgb(255, 192, 75);
+        }
+        .bt2{
+            background-color: #fff;
+            border-color: black;
+            width: 100px;
+        }
+        .bt2:hover{
+            background-color: rgb(252, 224, 173);
+            border-color: orangered;
+            box-shadow: 0px 20px 20px white, 0px 20px 20px rgb(255, 199, 94);
+        }
+        .weather{
+            width: 1330px;
+            height: 600px;
+            position: relative;
+        }
+        .h1{
+            position: absolute;
+            bottom: 150px;
+            text-align: center;
+            text-decoration: underline;
+            right: 100px;
+            left: 100px;
+            text-transform: capitalize;
+        }
+        .b{
+            background-color: orange;
+            border-radius: 5px;
+        }
+        .p2{
+            position: absolute;
+            bottom: 110px;
+            right: 100px;
+            left: 100px;
+            color: black;
+            text-align: center;
+            text-transform: capitalize;
+        }
+        .di{
+            position: absolute;
+            background-color: black;
+            color: orange;
+            bottom: 70px;
+            border-color: orange;
+            width: 100px;
+            height: 40px;
+            margin-top: 50px;
+        }
+        .di:hover{
+            background-color: orange;
+            color: black;
+            box-shadow: 0px 20px 20px rgb(243, 209, 96), 0px 20px 20px rgb(231, 135, 100);
+        }
+        .img2:hover{
+         color: orange;
+         background-color: orange;
+
+        }
+        h2{
+            
+            text-align: center;
+            text-decoration: underline;
+            text-transform: capitalize;
+            background-color: orange;
+        }
+        .div5{
+            background-color: orange;
+            color: black;
+        }
+        .six{
+            background-color: orange;
+            color: black;
+            text-align: center;
+            height: 50px;
+        }
+        .div6{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+        <nav><img src="logo.png.webp" alt="">
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+        
+            <p class="p1">home</p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+        <p>about</p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+        <p>blog</p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
+        <p>product</p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+        <p>contact us </p>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+   
+        <button class="bt1">English</button><button class="bt2">Free Quaters </button>
+
+    </nav>
+    <br>
+         <img src="weather.jpg" alt="" class="weather">
+         <center>
+         <h1 class="h1">build your <b class="b">dream</b></h1>
+         <p class="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp
+            <br> or incididunt ut labore et dolore magna aliqua.
+ Ut enim ad minim.</p>
+ <br>
+ <button class="di">discover now </button>
+</center>
+<br>
+<center>
+    <h2>our recent project </h2>
+    <p>
+        <img src="builder-1.jpg.webp" alt="" class="img1">
+        <img src="builder-2.jpg.webp" alt="" class="img1">
+        <img src="builder-3.jpg.webp" alt="" class="img1">
+        <img src="builder-4.jpg.webp" alt="" class="img1">
+        <img src="builder-5.jpg.webp" alt="" class="img1">
+        <img src="builder-6.jpg.webp" alt="" class="img1">
+    </p>
+</center>
+<br>
+<center>
+<h2>meet our expert memeber </h2>
+<img src="ethel1.webp" alt="" class="img2">
+<img src="ethel2.webp" alt="" class="img2">
+<img src="ethel3.webp" alt="" class="img2">
+<img src="ethel4.webp" alt="" class="img2">    
+<br>
+ethel maris 1
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+ethel maris 2
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+ethel maris 3
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+ethel maris 4
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+</center>
+<br>
+<div class="div5">
+    <center>
+    130 &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+1330&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+250&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;<br>
+members 
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+memeber
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;members
+</center>
+</div>
+<br>
+<div class="div6">
+    <center>
+    <img src="pri1.webp" alt="">
+    <img src="pri2.webp" alt="">
+    <img src="pri3.webp" alt="">
+    <img src="pri4.webp" alt="">
+    <img src="pri5.webp" alt="">
+</center>
+</div>
+<div class="six">
+    made by hira yousuf 
+</div>
+</div>
+</body>
+</html>
